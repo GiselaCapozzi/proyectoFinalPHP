@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="bootstrap-4.3.1/js/bootstrap.min.js"></script>
+  <script src="loginUsuario.js"></script>
+  <title>Proyecto Final</title>
+</head>
+<body>
+  <header>
+    <div id="contenedor">
+      <nav>
+        <a href="login">Nosotros</a>
+        <a href="#anuncios">Anuncios</a>
+        <a href="#">Blog</a>
+        <a href="#">Contacto</a>
+      </nav>
+    <img src="./IMAGENES/libros.png" alt="cosmoLibros">
+    </div>
+  </header>
+
+  <div class="container h-100">
+    <div class="row justify-content-center h-100 align-items-center">
+      <form id="formulario">
+        <div class="form-group">
+          <label for="Usuario">Nombre de usuario</label>
+          <input type="text" class="form-control" id="Usuario" required>
+        </div>
+        <div class="form-group">
+          <label for="Clave">Clave</label>
+          <input type="password" class="form-control" id="Clave" required>
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn btn-primary" id="BotonLogin">Ingresar</button>
+        </div>
+        <div class="form-group">
+          <a href="#" id="NuevoUsuario">¿Nuevo Usuario?</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- FORMULARIO AGREGAR USUARIO -->
+  <div class="modal fade" id="FormularioNuevoUsuario" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">x</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <input type="hidden" id="Codigo">
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label>Nombre de Usuario:</label>
+              <input type="text" id="NombreNuevo" class="form-control">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label>Clave:</label>
+              <input type="password" id="Clave1" class="form-control">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label>Repita clave:</label>
+              <input type="password" id="Clave2" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="BotonAgregarUsuario" class="btn btn-success">Agregar</button>
+          <button type="button" class="btn btn-success" data-dismiss="modal">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
