@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./imagenes/beautiful-space-background-vector.jpg');
+  background-size: cover;
+}
+
+#small {
+  color: white;
+  font-weight: 700;
+}
+
+header {
+  background-color: rgba(8, 4, 37, 0.658);
+  width: 100%;
+  height: 75px;
+  
+}
+
+img {
+  width: 75px;
+  height: 75px;
+  float: right;
+}
+
+.cerrarSesion {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.cerrarSesion a {
+  color: rgb(174, 0, 255);
+  font-weight: 500;
+}
+
+.fc-unthemed td.fc-today {
+  background: rgb(248, 218, 196);
+}
+
+#titulo {
+  font-family: 'Montez', cursive;
+  color: #ff0009;
+  float: right;
+  font-size: 60px;
+  text-shadow: 3px 3px 3px rgb(225, 0, 255);
+  margin-right: 12px;
+}
+
+#FormularioEventos 
+  .modal-header, 
+  .modal-footer {
+    background-color: #4d1b80;
+}
+
+#FormularioEventos
+  .modal-body {
+    background-image: url('./imagenes/por-que-el-espacio-es-frio-1617903788.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+  color: white;
+}
+
+@media only screen and (min-width: 1280px) {
+  .cerrarSesion a {
+    color: rgb(5, 181, 187);
+    font-weight: 500;
+  }
+}

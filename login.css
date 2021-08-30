@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('./imagenes/beautiful-space-background-vector.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+header {
+  background-color: rgba(8, 4, 37, 0.658);
+  width: 100%;
+  height: 125px;
+  display: flex;
+}
+
+img {
+  width: 125px;
+  height: 125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* FORMULARIO DE LOGIN */
+
+#formulario {
+  border:3px solid black;
+  box-shadow: 5px 5px 5px blueviolet;
+  padding:1rem;
+  border-radius: 0.5rem;
+}
+
+#usuario,
+#clave {
+  color: white;
+  font-style: italic;
+}
+
+.btn-primary {
+  margin-left: 55px;
+  background-color: #3b99fd;
+}
+
+.btn-primary:hover {
+  background-color:#0055b1;
+  
+}
+
+#NuevoUsuario {
+  display: inline-block;
+  margin-left: 90px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+/* FORMULARIO NUEVO USUARIO */
+
+#FormularioNuevoUsuario .modal-header {
+  background-color: #4d1b80;
+}
+
+#FormularioNuevoUsuario .modal-footer {
+  background-color: #4d1b80;
+}
+
+.close {
+  color: black;
+  font-weight: 900;
+}
+
+.alert {
+  background-image: url('./imagenes/beautiful-space-background-vector.jpg');
+}
+
+.btn-danger:hover {
+  background-color:rgb(253, 0, 0);
+}
+
+.modal-footer {
+  padding: 10px;
+  margin: 0;  
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+#titulo {
+  font-family: 'Montez', cursive;
+  color: #ff0009;
+  font-size: 100px;
+  text-shadow: 3px 3px 3px rgb(225, 0, 255);
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
