@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./imagenes/beautiful-space-background-vector.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  background-color: rgba(8, 4, 37, 0.658);
+  width: 100%;
+  height: 75px;
+  
+}
+
+#titulo {
+  font-family: 'Montez', cursive;
+  color: #ff0009;
+  float: right;
+  font-size: 60px;
+  text-shadow: 3px 3px 3px rgb(225, 0, 255);
+  margin-right: 12px;
+}
+
+td, label {
+  color: white;
+}
+
+.dataTables_length select {
+  color: rgb(99, 202, 250);
+  font-weight: 700;
+}
+
+.dataTables_filter input {
+  color: rgb(99, 202, 250);;
+}
+
+.dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+  color: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+  cursor: default;
+  color: rgb(255, 255, 255) !important;
+  border: 1px solid transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.dataTable th.dt-center, table.dataTable td.dt-center, table.dataTable td.dataTables_empty {
+  color: blueviolet;
+  font-weight: 700;
+}
+
+#FormularioEventosPredefinidos 
+  .modal-body {
+  background-image: url('./imagenes/por-que-el-espacio-es-frio-1617903788.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#FormularioEventosPredefinidos
+  .modal-header, 
+  .modal-footer {
+    background-color: #4d1b80;
+}
+
+Table tbody tr {
+  background-color: transparent !important;
+}
